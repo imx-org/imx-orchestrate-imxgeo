@@ -1,0 +1,39 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.graphql.GraphQlAutoConfiguration
+  graphql:
+    graphiql:
+      enabled: true
+
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+orchestrate:
+  gateway:
+    mapping: ${MODEL_MAPPING:/mapping/adresmapping.yaml}
+    dataPath: ${DATA_PATH:C:/Projects/dotwebstack/orchestrate/data}
+
+    sources:
+      bag:
+        type: file
+        options:
+          dataPath: ${BAG_DATA_PATH:./data/bag}
+      bgt:
+        type: file
+        options:
+          dataPath: ${BGT_DATA_PATH:./data/bgt}
+
+      brk:
+        type: file
+        options:
+          dataPath: ${BRK_DATA_PATH:./data/brk}
+
