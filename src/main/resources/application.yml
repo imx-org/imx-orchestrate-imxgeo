@@ -1,6 +1,7 @@
 logging:
   level:
     root: INFO
+    org.dotwebstack.orchestrate: DEBUG
 
 spring:
   autoconfigure:
@@ -19,21 +20,17 @@ management:
 
 orchestrate:
   gateway:
-    mapping: ${MODEL_MAPPING:/mapping/adresmapping.yaml}
-    dataPath: ${DATA_PATH:C:/Projects/dotwebstack/orchestrate/data}
-
+    mapping: /mapping/imxgeo.yaml
     sources:
       bag:
-        type: file
+        type: graphql
         options:
-          dataPath: ${BAG_DATA_PATH:./data/bag}
+          url: http://lookup.dhub.cs.kadaster.nl:8888/lvbag/bag-v2
+          jwtToken: ${BAG_JWT_TOKEN}
+
       bgt:
-        type: file
+        type: ogcapi
         options:
-          dataPath: ${BGT_DATA_PATH:./data/bgt}
-
-      brk:
-        type: file
-        options:
-          dataPath: ${BRK_DATA_PATH:./data/brk}
-
+          url: https://wau.ldproxy.net/bgt
+          supportsPropertySelection: true
+          supportsRelProfiles: true

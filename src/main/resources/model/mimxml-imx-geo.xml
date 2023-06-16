@@ -129,32 +129,32 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>domein</mim:naam>
-                            <mim:begrip>http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein</mim:begrip>
-                            <mim:herkomst>BAG</mim:herkomst>
-                            <mim:definitie>
-                                <xhtml:body>
-                                    <xhtml:p>Het domein waar het object aan toe behoort.</xhtml:p>
-                                </xhtml:body>
-                            </mim:definitie>
-                            <mim:herkomstDefinitie>Grondslagen Basis Registratie Adressen versie 2.0</mim:herkomstDefinitie>
-                            <mim:datumOpname>Oktober 2002</mim:datumOpname>
-                            <mim:type>
-                                <mim:Datatype>CharacterString</mim:Datatype>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>1</mim:kardinaliteit>
-                            <mim:authentiek>Authentiek</mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>true</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>domein</mim:naam>-->
+<!--                            <mim:begrip>http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein</mim:begrip>-->
+<!--                            <mim:herkomst>BAG</mim:herkomst>-->
+<!--                            <mim:definitie>-->
+<!--                                <xhtml:body>-->
+<!--                                    <xhtml:p>Het domein waar het object aan toe behoort.</xhtml:p>-->
+<!--                                </xhtml:body>-->
+<!--                            </mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>Grondslagen Basis Registratie Adressen versie 2.0</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>Oktober 2002</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim:Datatype>CharacterString</mim:Datatype>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>Authentiek</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>true</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                         <mim:Attribuutsoort>
                             <mim:naam>omschrijving</mim:naam>
                             <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/omschrijving</mim:begrip>
@@ -438,32 +438,32 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>domein</mim:naam>
-                            <mim:begrip>http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein</mim:begrip>
-                            <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                            <mim:definitie>
-                                <xhtml:body>
-                                    <xhtml:p>Het domein waar het object aan toe behoort.</xhtml:p>
-                                </xhtml:body>
-                            </mim:definitie>
-                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                            <mim:type>
-                                <mim:Datatype>CharacterString</mim:Datatype>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>1</mim:kardinaliteit>
-                            <mim:authentiek>Authentiek</mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>true</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>domein</mim:naam>-->
+<!--                            <mim:begrip>http://definities.geostandaarden.nl/nen3610-2022/id/begrip/domein</mim:begrip>-->
+<!--                            <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                            <mim:definitie>-->
+<!--                                <xhtml:body>-->
+<!--                                    <xhtml:p>Het domein waar het object aan toe behoort.</xhtml:p>-->
+<!--                                </xhtml:body>-->
+<!--                            </mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim:Datatype>CharacterString</mim:Datatype>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>Authentiek</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>true</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                         <mim:Attribuutsoort>
                             <mim:naam>maaiveldgeometrie</mim:naam>
                             <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/maaiveldgeometrie</mim:begrip>
@@ -486,28 +486,28 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>type</mim:naam>
-                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/gebouwtype</mim:begrip>
-                            <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                            <mim:type>
-                                <mim:Datatype>CharacterString</mim:Datatype>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>1</mim:kardinaliteit>
-                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>false</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>type</mim:naam>-->
+<!--                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/gebouwtype</mim:begrip>-->
+<!--                            <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                            <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim:Datatype>CharacterString</mim:Datatype>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>false</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                     </mim:attribuutsoorten>
                 </mim:Objecttype>
                 <mim:Objecttype id="imxgeolm-objecttype-gebouw">
@@ -551,28 +551,28 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>geometrie3D</mim:naam>
-                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/3d_geometrie</mim:begrip>
-                            <mim:herkomst>3D basisbestand</mim:herkomst>
-                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                            <mim:type>
-                                <mim-ext:ConstructieRef>GM_Solid</mim-ext:ConstructieRef>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>0..1</mim:kardinaliteit>
-                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>false</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>geometrie3D</mim:naam>-->
+<!--                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/3d_geometrie</mim:begrip>-->
+<!--                            <mim:herkomst>3D basisbestand</mim:herkomst>-->
+<!--                            <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim-ext:ConstructieRef>GM_Solid</mim-ext:ConstructieRef>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>0..1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>false</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                         <mim:Attribuutsoort>
                             <mim:naam>bouwjaar</mim:naam>
                             <mim:begrip>http://bag.basisregistraties.overheid.nl/id/begrip/OorspronkelijkBouwjaar</mim:begrip>
@@ -595,29 +595,71 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>sloopjaar</mim:naam>
-                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/sloopjaar</mim:begrip>
-                            <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                            <mim:type>
-                                <mim:Datatype>Year</mim:Datatype>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>0..1</mim:kardinaliteit>
-                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>false</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>sloopjaar</mim:naam>-->
+<!--                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/sloopjaar</mim:begrip>-->
+<!--                            <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                            <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim:Datatype>Year</mim:Datatype>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>0..1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>true</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>false</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                     </mim:attribuutsoorten>
+                    <mim:relatiesoorten>
+                        <mim:Relatiesoort index="3559">
+                            <mim:naam>heeftAlsAdres</mim:naam>
+                            <mim:unidirectioneel>true</mim:unidirectioneel>
+                            <mim:doel>
+                                <mim-ref:ObjecttypeRef index="3559"
+                                                       label="heeftAlsAdres"
+                                                       xlink:href="#imxgeolm-objecttype-adres">Adres</mim-ref:ObjecttypeRef>
+                            </mim:doel>
+                            <mim:relatierollen>
+                                <mim:Bron>
+                                    <mim:naam>isAdresVanGebouw</mim:naam>
+                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
+                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                                    <mim:kardinaliteit>1..*</mim:kardinaliteit>
+                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                                </mim:Bron>
+                                <mim:Doel>
+                                    <mim:naam>heeftAlsAdres</mim:naam>
+                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
+                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                                    <mim:kardinaliteit>0..*</mim:kardinaliteit>
+                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                                </mim:Doel>
+                            </mim:relatierollen>
+                            <mim-ext:kenmerken>
+                                <mim-ext:Kenmerk naam="positie">200</mim-ext:Kenmerk>
+                                <mim-ext:Kenmerk naam="kardinaliteitBron">1..*</mim-ext:Kenmerk>
+                                <mim-ext:Kenmerk naam="imvertor-version"/>
+                            </mim-ext:kenmerken>
+                        </mim:Relatiesoort>
+                    </mim:relatiesoorten>
                 </mim:Objecttype>
                 <mim:Objecttype id="imxgeolm-objecttype-gemeente">
                     <mim:naam>Gemeente</mim:naam>

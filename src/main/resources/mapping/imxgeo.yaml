@@ -11,6 +11,11 @@ lineageNameMapping:
   objectKey: identificatie
   objectType: type
 
+targetModel:
+  imxgeo:
+    location: "model/mimxml-imx-geo.xml"
+    profile: MIM
+
 sourceModels:
   - bag:
       location: "model/imbag.xml"
@@ -19,10 +24,28 @@ sourceModels:
       location: "model/imgeo.xml"
       profile: MIM
 
-targetModel:
-  imxgeo:
-    location: "model/mimxml-imx-geo.xml"
-    profile: MIM
+sourceRelations:
+  - sourceType: bgt:Pand
+    property:
+      name: gerelateerdBagPand
+      target: bag:Pand
+      cardinality: 0..1
+      inverseName: gerelateerdBgtPand
+      inverseCardinality: 0..1
+      keyMapping:
+        identificatie: identificatieBAGPND
+#  - sourceType: bgt:Pand
+#    property:
+#      name: gerelateerdBagPand
+#      target: bag:Pand
+#      cardinality: 0..1
+#      inverseName: gerelateerdBgtPand
+#      inverseCardinality: 0..1
+#      filterMappings:
+#        - property: geometrie
+#          operator:
+#            type: intersects
+#          sourcePath: geometrie2dGrondvlak
 
 objectTypeMappings:
   Adres:
@@ -31,9 +54,9 @@ objectTypeMappings:
       identificatie:
         pathMappings:
           path: identificatie
-      domein:
-        pathMappings:
-          path: foo
+#      domein:
+#        pathMappings:
+#          path: foo
       huisnummer:
         pathMappings:
           path: huisnummer
@@ -110,21 +133,16 @@ objectTypeMappings:
           path: identificatie
       bouwjaar:
         pathMappings:
-          path: isGerelateerdAan/oorspronkelijkBouwjaar
+          path: gerelateerdBagPand/oorspronkelijkBouwjaar
       bovenaanzichtgeometrie:
         pathMappings:
-          path: isGerelateerdAan/geometrie
+          path: gerelateerdBagPand/geometrie
       maaiveldgeometrie:
         pathMappings:
           path: geometrie2dGrondvlak
       heeftAlsAdres:
         pathMappings:
-          path: isGerelateerdAan/bevat/heeftAlsHoofdadres
-      totaalPerceelOppervlak:
-        pathMappings:
-          path: isGerelateerdAan/bevat/heeftAlsHoofdadres/betreftInverse/heeft/kadastraleGrootte
+          - path: gerelateerdBagPand/bevat/heeftAlsHoofdadres
+          - path: gerelateerdBagPand/bevat/heeftAlsNevenadres
         combiner:
-          type: sum
-      bevindtZichOpPerceel:
-        pathMappings:
-          path: isGerelateerdAan/bevat/heeftAlsHoofdadres/betreftInverse/heeft
+          type: merge
