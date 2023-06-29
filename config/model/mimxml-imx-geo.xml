@@ -925,28 +925,28 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
                         </mim:Attribuutsoort>
-                        <mim:Attribuutsoort>
-                            <mim:naam>laatsteKoopsom</mim:naam>
-                            <mim:begrip>http://brk.basisregistraties.overheid.nl/id/begrip/Koopsom</mim:begrip>
-                            <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                            <mim:type>
-                                <mim-ref:DatatypeRef xlink:href="#imxgeolm-gestructureerddatatype-bedrag">Bedrag</mim-ref:DatatypeRef>
-                            </mim:type>
-                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                            <mim:kardinaliteit>1</mim:kardinaliteit>
-                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
-                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
-                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
-                            <mim:identificerend>false</mim:identificerend>
-                            <mim-ext:kenmerken>
-                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
-                            </mim-ext:kenmerken>
-                        </mim:Attribuutsoort>
+<!--                        <mim:Attribuutsoort>-->
+<!--                            <mim:naam>laatsteKoopsom</mim:naam>-->
+<!--                            <mim:begrip>http://brk.basisregistraties.overheid.nl/id/begrip/Koopsom</mim:begrip>-->
+<!--                            <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                            <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                            <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                            <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                            <mim:type>-->
+<!--                                <mim-ref:DatatypeRef xlink:href="#imxgeolm-gestructureerddatatype-bedrag">Bedrag</mim-ref:DatatypeRef>-->
+<!--                            </mim:type>-->
+<!--                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                            <mim:kardinaliteit>1</mim:kardinaliteit>-->
+<!--                            <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>-->
+<!--                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>-->
+<!--                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>-->
+<!--                            <mim:identificerend>false</mim:identificerend>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Attribuutsoort>-->
                         <mim:Attribuutsoort>
                             <mim:naam>koopjaar</mim:naam>
                             <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>

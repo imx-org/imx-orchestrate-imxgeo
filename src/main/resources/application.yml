@@ -19,18 +19,18 @@ management:
         include: health,info,metrics,prometheus
 
 orchestrate:
-  gateway:
-    mapping: /mapping/imxgeo.yaml
-    sources:
-      bag:
-        type: graphql
-        options:
-          url: http://lookup.dhub.cs.kadaster.nl:8888/lvbag/bag-v2
-          jwtToken: ${BAG_JWT_TOKEN}
+  mapping: config/mapping/imxgeo.yaml
+  sources:
+    bag:
+      type: graphql
+      options:
+        url: http://lookup.dhub.cs.kadaster.nl:8888/lvbag/bag-v2
+        bearerToken: ${BAG_JWT_TOKEN}
+        collectionSuffix: Collectie
 
-      bgt:
-        type: ogcapi
-        options:
-          url: https://wau.ldproxy.net/bgt
-          supportsPropertySelection: true
-          supportsRelProfiles: true
+    bgt:
+      type: ogcapi
+      options:
+        url: https://wau.ldproxy.net/bgt
+        supportsPropertySelection: true
+        supportsRelProfiles: true

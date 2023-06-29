@@ -36,6 +36,11 @@
         </dependency>
         <dependency>
             <groupId>org.dotwebstack.orchestrate</groupId>
+            <artifactId>orchestrate-source-graphql</artifactId>
+            <version>${orchestrate.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dotwebstack.orchestrate</groupId>
             <artifactId>orchestrate-mim</artifactId>
             <version>${orchestrate-mim.version}</version>
         </dependency>
@@ -43,11 +48,6 @@
             <groupId>de.interactive-instruments.orchestrate</groupId>
             <artifactId>orchestrate-ogcapi</artifactId>
             <version>${orchestrate-ogcapi.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>nl.kadaster.gdc</groupId>
-            <artifactId>source-graphql</artifactId>
-            <version>${orchestrate-graphql.version}</version>
         </dependency>
     </dependencies>
 </project>

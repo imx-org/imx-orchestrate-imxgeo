@@ -12,17 +12,16 @@ lineageNameMapping:
   objectType: type
 
 targetModel:
-  imxgeo:
-    location: "model/mimxml-imx-geo.xml"
-    profile: MIM
+  loader: mim
+  location: config/model/mimxml-imx-geo.xml
 
 sourceModels:
-  - bag:
-      location: "model/imbag.xml"
-      profile: MIM
-  - bgt:
-      location: "model/imgeo.xml"
-      profile: MIM
+  bag:
+    loader: mim
+    location: config/model/imbag.xml
+  bgt:
+    loader: mim
+    location: config/model/imgeo.xml
 
 sourceRelations:
   - sourceType: bgt:Pand
@@ -46,6 +45,22 @@ sourceRelations:
 #          operator:
 #            type: intersects
 #          sourcePath: geometrie2dGrondvlak
+#
+#  - sourceType: bag:Verblijfsobject
+#    property:
+#      name: heeftAlsHoofdadres
+#      target: bag:Nummeraanduiding
+#      cardinality: "1"
+#      inverseName: isHoofdadresVan
+#      inverseCardinality: 0..1
+#
+#  - sourceType: bag:Verblijfsobject
+#    property:
+#      name: heeftAlsNevenadres
+#      target: bag:Nummeraanduiding
+#      cardinality: 0..*
+#      inverseName: isNevenadresVan
+#      inverseCardinality: 0..1
 
 objectTypeMappings:
   Adres:
@@ -123,7 +138,7 @@ objectTypeMappings:
       # TODO: auto-generatie inverse mappings
       isAdresVanGebouw:
         pathMappings:
-          path: isHoofdadresVan/maaktDeelUitVan/isGerelateerdAan
+          path: isHoofdadresVan/maaktDeelUitVan/gerelateerdBgtPand
 
   Gebouw:
     sourceRoot: bgt:Pand
