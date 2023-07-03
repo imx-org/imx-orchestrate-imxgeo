@@ -10,6 +10,7 @@ lineageNameMapping:
   value: waarde
   objectKey: identificatie
   objectType: type
+  isDerivedFrom: isAfgeleidVan
 
 targetModel:
   loader: mim
