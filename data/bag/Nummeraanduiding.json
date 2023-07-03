@@ -1,0 +1,82 @@
+[
+  {
+    "identificatie": "0050200000367171",
+    "huisnummer": 1,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367195",
+    "huisnummer": 2,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367197",
+    "huisnummer": 3,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367199",
+    "huisnummer": 4,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000374599",
+    "huisnummer": 5,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367201",
+    "huisnummer": 6,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367203",
+    "huisnummer": 7,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367205",
+    "huisnummer": 8,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000374601",
+    "huisnummer": 9,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  },
+  {
+    "identificatie": "0050200000367173",
+    "huisnummer": 10,
+    "postcode": "3891ER",
+    "ligtAan": {
+      "identificatie": "0050300000343531"
+    }
+  }
+]

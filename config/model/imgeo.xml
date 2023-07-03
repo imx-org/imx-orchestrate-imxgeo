@@ -7992,7 +7992,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                      </mim-ext:kenmerken>
                   </mim:Attribuutsoort>
                   <mim:Attribuutsoort index="2738">
-                     <mim:naam>geometrie</mim:naam>
+                     <mim:naam>geometrie2dGrondvlak</mim:naam>
                      <mim:herkomst>BGT</mim:herkomst>
                      <mim:definitie>
                         <xhtml:body>

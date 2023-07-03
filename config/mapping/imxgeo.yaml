@@ -13,7 +13,7 @@ lineageNameMapping:
 
 targetModel:
   loader: mim
-  location: config/model/mimxml-imx-geo.xml
+  location: config/model/imxgeo.xml
 
 sourceModels:
   bag:
@@ -22,6 +22,9 @@ sourceModels:
   bgt:
     loader: mim
     location: config/model/imgeo.xml
+  brk:
+    loader: yaml
+    location: config/model/imkad.yaml
 
 sourceRelations:
   - sourceType: bgt:Pand
@@ -45,22 +48,6 @@ sourceRelations:
 #          operator:
 #            type: intersects
 #          sourcePath: geometrie2dGrondvlak
-#
-#  - sourceType: bag:Verblijfsobject
-#    property:
-#      name: heeftAlsHoofdadres
-#      target: bag:Nummeraanduiding
-#      cardinality: "1"
-#      inverseName: isHoofdadresVan
-#      inverseCardinality: 0..1
-#
-#  - sourceType: bag:Verblijfsobject
-#    property:
-#      name: heeftAlsNevenadres
-#      target: bag:Nummeraanduiding
-#      cardinality: 0..*
-#      inverseName: isNevenadresVan
-#      inverseCardinality: 0..1
 
 objectTypeMappings:
   Adres:
@@ -69,9 +56,6 @@ objectTypeMappings:
       identificatie:
         pathMappings:
           path: identificatie
-#      domein:
-#        pathMappings:
-#          path: foo
       huisnummer:
         pathMappings:
           path: huisnummer
@@ -161,3 +145,26 @@ objectTypeMappings:
           - path: gerelateerdBagPand/bevat/heeftAlsNevenadres
         combiner:
           type: merge
+      bevindtZichOpPerceel:
+        pathMappings:
+          path: gerelateerdBagPand/bevat/heeftAlsHoofdadres/betreftInverse/heeft
+
+  Perceel:
+    sourceRoot: brk:Perceel
+    propertyMappings:
+      identificatie:
+        pathMappings:
+          path: identificatie
+      laatsteKoopsom:
+        pathMappings:
+          path: koopsom
+      oppervlak:
+        pathMappings:
+          path: kadastraleGrootte
+      begrenzing:
+        pathMappings:
+          path: begrenzing
+      # TODO: Auto generate inverse mappings
+      bevatGebouw:
+        pathMappings:
+          path: heeftInverse/betreft/isHoofdadresVan/maaktDeelUitVan/gerelateerdBgtPand

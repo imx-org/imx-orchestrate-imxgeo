@@ -34,3 +34,8 @@ orchestrate:
         url: https://wau.ldproxy.net/bgt
         supportsPropertySelection: true
         supportsRelProfiles: true
+
+    brk:
+      type: file
+      options:
+        dataPath: data/brk

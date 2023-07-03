@@ -1,0 +1,112 @@
+[
+  {
+    "identificatie": "0050010000367172",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367171"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000346257"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367196",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367195"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367198",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367197"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367200",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367199"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000374600",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000374599"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367202",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367201"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367204",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367203"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367206",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367205"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000374602",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000374601"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  },
+  {
+    "identificatie": "0050010000367174",
+    "heeftAlsHoofdadres": {
+      "identificatie": "0050200000367173"
+    },
+    "maaktDeelUitVan": [
+      {
+        "identificatie": "0050100000351715"
+      }
+    ]
+  }
+]

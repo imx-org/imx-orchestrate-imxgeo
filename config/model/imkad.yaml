@@ -1,0 +1,31 @@
+objectTypes:
+  Perceel:
+    attributes:
+      identificatie:
+        type: String
+        identifier: true
+        cardinality: 1
+      kadastraleGrootte:
+        type: Integer
+        cardinality: 1
+      koopsom:
+        type: Integer
+        cardinality: 1
+      begrenzing:
+        type: Geometry
+        cardinality: 1
+
+  LocatieKadastraalObject:
+    relations:
+      heeft:
+        target: Perceel
+        cardinality: 1
+        identifier: true
+        inverseName: heeftInverse
+        inverseCardinality: 0..*
+      betreft:
+        target: bag:Nummeraanduiding
+        cardinality: 1
+        identifier: true
+        inverseName: betreftInverse
+        inverseCardinality: 0..*
