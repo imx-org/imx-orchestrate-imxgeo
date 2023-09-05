@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.dotwebstack.orchestrate</groupId>
+    <groupId>nl.geostandaarden.imx.orchestrate.imxgeo</groupId>
     <artifactId>orchestrate-imxgeo</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
@@ -30,17 +30,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.dotwebstack.orchestrate</groupId>
+            <groupId>nl.geostandaarden.imx.orchestrate</groupId>
             <artifactId>orchestrate-gateway</artifactId>
             <version>${orchestrate.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.dotwebstack.orchestrate</groupId>
+            <groupId>nl.geostandaarden.imx.orchestrate</groupId>
             <artifactId>orchestrate-source-graphql</artifactId>
             <version>${orchestrate.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.dotwebstack.orchestrate</groupId>
+            <groupId>nl.geostandaarden.imx.orchestrate.mim</groupId>
             <artifactId>orchestrate-mim</artifactId>
             <version>${orchestrate-mim.version}</version>
         </dependency>
