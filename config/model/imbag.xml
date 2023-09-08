@@ -3952,7 +3952,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                             <mim-ext:kenmerken>
                                 <mim-ext:kenmerk naam="positie">200</mim-ext:kenmerk>
                                 <mim-ext:kenmerk naam="kardinaliteitBron">0..1</mim-ext:kenmerk>
-                                <mim-ext:kenmerk naam="relatienaam inversie">isHoofdadresVan</mim-ext:kenmerk><!-- handmatig toegevoegd -->
+                                <mim-ext:kenmerk naam="relatienaam inverse">isHoofdadresVan</mim-ext:kenmerk><!-- handmatig toegevoegd -->
                             </mim-ext:kenmerken>
                         </mim:Relatiesoort>
                         <mim:Relatiesoort>
@@ -3991,7 +3991,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                             <mim-ext:kenmerken>
                                 <mim-ext:kenmerk naam="positie">200</mim-ext:kenmerk>
                                 <mim-ext:kenmerk naam="kardinaliteitBron">0..1</mim-ext:kenmerk>
-                                <mim-ext:kenmerk naam="relatienaam inversie">isNevenadresVan</mim-ext:kenmerk><!-- handmatig toegevoegd -->
+                                <mim-ext:kenmerk naam="relatienaam inverse">isNevenadresVan</mim-ext:kenmerk><!-- handmatig toegevoegd -->
                             </mim-ext:kenmerken>
                         </mim:Relatiesoort>
                     </mim:relatiesoorten>
@@ -5814,7 +5814,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                             <mim-ext:kenmerken>
                                 <mim-ext:kenmerk naam="positie">200</mim-ext:kenmerk>
                                 <mim-ext:kenmerk naam="kardinaliteitBron">0..*</mim-ext:kenmerk>
-                                <mim-ext:kenmerk naam="relatienaam inversie">bevat</mim-ext:kenmerk><!-- handmatig toegevoegd -->
+                                <mim-ext:kenmerk naam="relatienaam inverse">bevat</mim-ext:kenmerk><!-- handmatig toegevoegd -->
                             </mim-ext:kenmerken>
                         </mim:Relatiesoort>
                     </mim:relatiesoorten>
