@@ -1,7 +1,6 @@
 logging:
   level:
     root: INFO
-    nl.geostandaarden.imx.orchestrate: DEBUG
 
 spring:
   autoconfigure:
@@ -22,18 +21,14 @@ orchestrate:
   mapping: config/mapping/imxgeo.yaml
   sources:
     bag:
-      type: graphql
+      type: file
       options:
-        url: http://lookup.dhub.cs.kadaster.nl:8888/lvbag/bag-v2
-        bearerToken: ${BAG_JWT_TOKEN}
-        collectionSuffix: Collectie
+        dataPath: data/bag
 
     bgt:
-      type: ogcapi
+      type: file
       options:
-        url: https://wau.ldproxy.net/bgt
-        supportsPropertySelection: true
-        supportsRelProfiles: true
+        dataPath: data/bgt
 
     brk:
       type: file

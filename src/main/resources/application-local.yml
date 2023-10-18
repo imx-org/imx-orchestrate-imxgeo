@@ -1,17 +1,4 @@
-orchestrate:
-  mapping: config/mapping/imxgeo.yaml
-  sources:
-    bag:
-      type: file
-      options:
-        dataPath: data/bag
-
-    bgt:
-      type: file
-      options:
-        dataPath: data/bgt
-
-    brk:
-      type: file
-      options:
-        dataPath: data/brk
+logging:
+  level:
+    root: INFO
+    nl.geostandaarden.imx.orchestrate: DEBUG

@@ -17,15 +17,27 @@
         </license>
     </licenses>
 
+    <scm>
+        <connection>scm:git:${project.scm.url}</connection>
+        <developerConnection>scm:git:${project.scm.url}</developerConnection>
+        <url>https://github.com/imx-org/imx-orchestrate-imxgeo.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/imx-org/imx-orchestrate-imxgeo</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <orchestrate.version>0.0.1-SNAPSHOT</orchestrate.version>
-        <orchestrate-mim.version>0.0.1-SNAPSHOT</orchestrate-mim.version>
-        <orchestrate-ogcapi.version>0.0.1-SNAPSHOT</orchestrate-ogcapi.version>
-        <orchestrate-graphql.version>0.0.1-SNAPSHOT</orchestrate-graphql.version>
+        <orchestrate.version>0.0.9</orchestrate.version>
+        <orchestrate-mim.version>0.0.3</orchestrate-mim.version>
     </properties>
 
     <dependencies>
@@ -43,11 +55,6 @@
             <groupId>nl.geostandaarden.imx.orchestrate.mim</groupId>
             <artifactId>orchestrate-mim</artifactId>
             <version>${orchestrate-mim.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>de.interactive-instruments.orchestrate</groupId>
-            <artifactId>orchestrate-ogcapi</artifactId>
-            <version>${orchestrate-ogcapi.version}</version>
         </dependency>
     </dependencies>
 </project>
