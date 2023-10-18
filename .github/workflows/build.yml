@@ -15,11 +15,18 @@ jobs:
           java-version: 17
           distribution: temurin
           cache: maven
-      - name: Build & push Docker image
-        run: |
-          mvn -B package spring-boot:repackage
-          IMAGE_NAME=ghcr.io/imx-org/orchestrate-imxgeo:$(git rev-parse --short HEAD)
-          docker build -t ${IMAGE_NAME} .
-          docker push ${IMAGE_NAME}
+      - name: Build & package JAR
+        run: mvn -B package spring-boot:repackage
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Login to container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build & push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: ghcr.io/imx-org/orchestrate-imxgeo:${{ env.GITHUB_SHA }}
