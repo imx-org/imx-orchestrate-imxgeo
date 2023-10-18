@@ -27,7 +27,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/imx-org/imx-orchestrate-imxgeo</url>
+            <url>https://maven.pkg.github.com/imx-org/imx-orchestrate</url>
         </repository>
     </repositories>
 
