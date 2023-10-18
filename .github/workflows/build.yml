@@ -18,7 +18,7 @@ jobs:
       - name: Build & push Docker image
         run: |
           mvn -B package spring-boot:repackage
-          IMAGE_NAME=orchestrate-imxgeo:$(git rev-parse --short HEAD)
+          IMAGE_NAME=ghcr.io/imx-org/orchestrate-imxgeo:$(git rev-parse --short HEAD)
           docker build -t ${IMAGE_NAME} .
           docker push ${IMAGE_NAME}
         env:
