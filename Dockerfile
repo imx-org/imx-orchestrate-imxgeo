@@ -1,5 +1,7 @@
 FROM eclipse-temurin:21-jre-alpine
 
+LABEL org.opencontainers.image.source=https://github.com/imx-org/imx-orchestrate-imxgeo
+
 RUN mkdir /opt/app
 
 COPY target/orchestrate-imxgeo-*.jar /opt/app/app.jar
