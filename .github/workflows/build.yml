@@ -30,4 +30,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/imx-org/orchestrate-imxgeo:${{ github.sha }}
+          tags: |
+            ghcr.io/imx-org/orchestrate-imxgeo:latest
+            ghcr.io/imx-org/orchestrate-imxgeo:${{ github.sha }}
