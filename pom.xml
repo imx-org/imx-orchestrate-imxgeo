@@ -38,7 +38,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <orchestrate.version>0.0.10</orchestrate.version>
         <orchestrate-mim.version>0.0.3</orchestrate-mim.version>
-        <spring-boot.version>3.1.4</spring-boot.version>
+        <spring-boot.version>3.1.5</spring-boot.version>
     </properties>
 
     <dependencies>
