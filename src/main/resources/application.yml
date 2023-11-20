@@ -6,8 +6,10 @@ spring:
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.graphql.GraphQlAutoConfiguration
   graphql:
+    path: /imxgeo/api
     graphiql:
       enabled: true
+      path: /imxgeo
 
 management:
   server:
