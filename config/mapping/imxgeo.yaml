@@ -1,16 +1,16 @@
 lineageNameMapping:
   hasLineage: geregistreerdMet
   ObjectLineage: Registratie
-  orchestratedProperties: bestaatUit
-  OrchestratedProperty: GeorkestreerdGegeven
-  SourceProperty: Brongegeven
+  orchestratedDataElements: bestaatUit
+  OrchestratedDataElements: GeorkestreerdGegeven
+  SourceDataElement: Brongegeven
   ObjectReference: Object
   subject: onderwerp
   property: kenmerk
   value: waarde
   objectKey: identificatie
   objectType: type
-  isDerivedFrom: isAfgeleidVan
+  wasDerivedFrom: isAfgeleidVan
 
 targetModel:
   loader: mim

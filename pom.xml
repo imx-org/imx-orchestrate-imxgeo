@@ -36,8 +36,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <orchestrate.version>0.0.10</orchestrate.version>
-        <orchestrate-mim.version>0.0.3</orchestrate-mim.version>
+        <orchestrate.version>0.0.12</orchestrate.version>
+        <orchestrate-mim.version>0.0.4</orchestrate-mim.version>
         <spring-boot.version>3.1.5</spring-boot.version>
     </properties>
 
