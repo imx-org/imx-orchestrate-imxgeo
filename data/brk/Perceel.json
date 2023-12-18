@@ -3,7 +3,7 @@
     "identificatie": "89580226870000",
     "kadastraleGrootte": 711,
     "koopsom": 1234567,
-    "begrenzing": {
+    "begrenzingPerceel": {
       "type": "Polygon",
       "coordinates": [
         [
@@ -51,7 +51,7 @@
     "identificatie": "89580448470000",
     "kadastraleGrootte": 268,
     "koopsom": 1234567,
-    "begrenzing": {
+    "begrenzingPerceel": {
       "type": "Polygon",
       "coordinates": [
         [
@@ -83,7 +83,7 @@
     "identificatie": "89580440870000",
     "kadastraleGrootte": 1605,
     "koopsom": 1234567,
-    "begrenzing": {
+    "begrenzingPerceel": {
       "type": "Polygon",
       "coordinates": [
         [

@@ -509,6 +509,46 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
 <!--                            </mim-ext:kenmerken>-->
 <!--                        </mim:Attribuutsoort>-->
                     </mim:attribuutsoorten>
+                    <mim:relatiesoorten>
+                        <mim:Relatiesoort index="3559">
+                            <mim:naam>bevindtZichOpPerceel</mim:naam>
+                            <mim:unidirectioneel>true</mim:unidirectioneel>
+                            <mim:doel>
+                                <mim-ref:ObjecttypeRef index="3559" label="bevindtZichOpPerceel" xlink:href="#imxgeolm-objecttype-adres">Perceel</mim-ref:ObjecttypeRef>
+                            </mim:doel>
+                            <mim:relatierollen>
+                                <mim:Bron>
+                                    <mim:naam>bevatBouwwerk</mim:naam>
+                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
+                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                                    <mim:kardinaliteit>0..*</mim:kardinaliteit>
+                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                                </mim:Bron>
+                                <mim:Doel>
+                                    <mim:naam>bevindtZichOpPerceel</mim:naam>
+                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
+                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                                    <mim:kardinaliteit>0..*</mim:kardinaliteit>
+                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                                </mim:Doel>
+                            </mim:relatierollen>
+                            <mim-ext:kenmerken>
+                                <mim-ext:Kenmerk naam="positie">200</mim-ext:Kenmerk>
+                                <mim-ext:Kenmerk naam="kardinaliteitBron">0..*</mim-ext:Kenmerk>
+                                <mim-ext:Kenmerk naam="imvertor-version"/>
+                            </mim-ext:kenmerken>
+                        </mim:Relatiesoort>
+                    </mim:relatiesoorten>
                 </mim:Objecttype>
                 <mim:Objecttype id="imxgeolm-objecttype-gebouw">
                     <mim:naam>Gebouw</mim:naam>
@@ -518,17 +558,61 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                     <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
                     <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
                     <mim:indicatieAbstractObject>false</mim:indicatieAbstractObject>
-                    <mim:supertypen>
-                        <mim:GeneralisatieObjecttypen>
-                            <mim:supertype>
-                                <mim-ref:ObjecttypeRef xlink:href="#imxgeolm-objecttype-bouwwerk">Bouwwerk</mim-ref:ObjecttypeRef>
-                            </mim:supertype>
+<!--                    <mim:supertypen>-->
+<!--                        <mim:GeneralisatieObjecttypen>-->
+<!--                            <mim:supertype>-->
+<!--                                <mim-ref:ObjecttypeRef xlink:href="#imxgeolm-objecttype-bouwwerk">Bouwwerk</mim-ref:ObjecttypeRef>-->
+<!--                            </mim:supertype>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:GeneralisatieObjecttypen>-->
+<!--                    </mim:supertypen>-->
+                    <mim:attribuutsoorten>
+                        <mim:Attribuutsoort>
+                            <mim:naam>identificatie</mim:naam>
+                            <mim:begrip>http://definities.geostandaarden.nl/nen3610-2022/id/begrip/identificatie</mim:begrip>
+                            <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
+                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                            <mim:type>
+                                <mim:Datatype>CharacterString</mim:Datatype>
+                            </mim:type>
+                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                            <mim:kardinaliteit>1</mim:kardinaliteit>
+                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
+                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
+                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                            <mim:identificerend>true</mim:identificerend>
                             <mim-ext:kenmerken>
                                 <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
                             </mim-ext:kenmerken>
-                        </mim:GeneralisatieObjecttypen>
-                    </mim:supertypen>
-                    <mim:attribuutsoorten>
+                        </mim:Attribuutsoort>
+                        <mim:Attribuutsoort>
+                            <mim:naam>maaiveldgeometrie</mim:naam>
+                            <mim:begrip>https://begrippen.geostandaarden.nl/sam/id/begrip/maaiveldgeometrie</mim:begrip>
+                            <mim:herkomst>BGT</mim:herkomst>
+                            <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
+                            <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
+                            <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
+                            <mim:type>
+                                <mim-ext:ConstructieRef>GM_MultiSurface</mim-ext:ConstructieRef>
+                            </mim:type>
+                            <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                            <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                            <mim:kardinaliteit>0..1</mim:kardinaliteit>
+                            <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
+                            <mim:indicatieAfleidbaar>false</mim:indicatieAfleidbaar>
+                            <mim:indicatieClassificerend>false</mim:indicatieClassificerend>
+                            <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                            <mim:identificerend>false</mim:identificerend>
+                            <mim-ext:kenmerken>
+                                <mim-ext:kenmerk naam="positie">100</mim-ext:kenmerk>
+                            </mim-ext:kenmerken>
+                        </mim:Attribuutsoort>
                         <mim:Attribuutsoort>
                             <mim:naam>bovenaanzichtgeometrie</mim:naam>
                             <mim:begrip>http://bag.basisregistraties.overheid.nl/id/begrip/Geometrie</mim:begrip>
@@ -659,46 +743,46 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                                 <mim-ext:Kenmerk naam="imvertor-version"/>
                             </mim-ext:kenmerken>
                         </mim:Relatiesoort>
-                        <mim:Relatiesoort index="3559">
-                            <mim:naam>bevindtZichOpPerceel</mim:naam>
-                            <mim:unidirectioneel>true</mim:unidirectioneel>
-                            <mim:doel>
-                                <mim-ref:ObjecttypeRef index="3559"
-                                                       label="bevindtZichOpPerceel"
-                                                       xlink:href="#imxgeolm-objecttype-adres">Perceel</mim-ref:ObjecttypeRef>
-                            </mim:doel>
-                            <mim:relatierollen>
-                                <mim:Bron>
-                                    <mim:naam>bevatGebouw</mim:naam>
-                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                                    <mim:kardinaliteit>1..*</mim:kardinaliteit>
-                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
-                                </mim:Bron>
-                                <mim:Doel>
-                                    <mim:naam>bevindtZichOpPerceel</mim:naam>
-                                    <mim:herkomst><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomst>
-                                    <mim:definitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:definitie>
-                                    <mim:herkomstDefinitie><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:herkomstDefinitie>
-                                    <mim:datumOpname><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:datumOpname>
-                                    <mim:kardinaliteit>1..*</mim:kardinaliteit>
-                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
-                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
-                                    <mim:authentiek><!-- FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model --></mim:authentiek>
-                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
-                                </mim:Doel>
-                            </mim:relatierollen>
-                            <mim-ext:kenmerken>
-                                <mim-ext:Kenmerk naam="positie">200</mim-ext:Kenmerk>
-                                <mim-ext:Kenmerk naam="kardinaliteitBron">0..*</mim-ext:Kenmerk>
-                                <mim-ext:Kenmerk naam="imvertor-version"/>
-                            </mim-ext:kenmerken>
-                        </mim:Relatiesoort>
+<!--                        <mim:Relatiesoort index="3559">-->
+<!--                            <mim:naam>bevindtZichOpPerceel</mim:naam>-->
+<!--                            <mim:unidirectioneel>true</mim:unidirectioneel>-->
+<!--                            <mim:doel>-->
+<!--                                <mim-ref:ObjecttypeRef index="3559"-->
+<!--                                                       label="bevindtZichOpPerceel"-->
+<!--                                                       xlink:href="#imxgeolm-objecttype-adres">Perceel</mim-ref:ObjecttypeRef>-->
+<!--                            </mim:doel>-->
+<!--                            <mim:relatierollen>-->
+<!--                                <mim:Bron>-->
+<!--                                    <mim:naam>bevatGebouw</mim:naam>-->
+<!--                                    <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                                    <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                                    <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                                    <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                                    <mim:kardinaliteit>1..*</mim:kardinaliteit>-->
+<!--                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                                    <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>-->
+<!--                                </mim:Bron>-->
+<!--                                <mim:Doel>-->
+<!--                                    <mim:naam>bevindtZichOpPerceel</mim:naam>-->
+<!--                                    <mim:herkomst>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomst>-->
+<!--                                    <mim:definitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:definitie>-->
+<!--                                    <mim:herkomstDefinitie>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:herkomstDefinitie>-->
+<!--                                    <mim:datumOpname>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:datumOpname>-->
+<!--                                    <mim:kardinaliteit>1..*</mim:kardinaliteit>-->
+<!--                                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>-->
+<!--                                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>-->
+<!--                                    <mim:authentiek>&lt;!&ndash; FOUT: De waarde voor dit verplichte metagegeven is niet gespecificeerd in het model &ndash;&gt;</mim:authentiek>-->
+<!--                                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>-->
+<!--                                </mim:Doel>-->
+<!--                            </mim:relatierollen>-->
+<!--                            <mim-ext:kenmerken>-->
+<!--                                <mim-ext:Kenmerk naam="positie">200</mim-ext:Kenmerk>-->
+<!--                                <mim-ext:Kenmerk naam="kardinaliteitBron">0..*</mim-ext:Kenmerk>-->
+<!--                                <mim-ext:Kenmerk naam="imvertor-version"/>-->
+<!--                            </mim-ext:kenmerken>-->
+<!--                        </mim:Relatiesoort>-->
                     </mim:relatiesoorten>
                 </mim:Objecttype>
                 <mim:Objecttype id="imxgeolm-objecttype-gemeente">

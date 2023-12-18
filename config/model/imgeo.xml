@@ -7779,7 +7779,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                </mim:supertypen>
                <mim:attribuutsoorten>
                   <mim:Attribuutsoort index="2828">
-                     <mim:naam>geometrie</mim:naam>
+                     <mim:naam>geometrie2dOverigeConstructie</mim:naam>
                      <mim:herkomst>BGT</mim:herkomst>
                      <mim:definitie>
                         <xhtml:body>
@@ -8866,7 +8866,7 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
                </mim:supertypen>
                <mim:attribuutsoorten>
                   <mim:Attribuutsoort index="3285">
-                     <mim:naam>geometrie</mim:naam>
+                     <mim:naam>geometrie2dTunneldeel</mim:naam>
                      <mim:herkomst>BGT</mim:herkomst>
                      <mim:definitie>
                         <xhtml:body>

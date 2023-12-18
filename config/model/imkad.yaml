@@ -11,7 +11,7 @@ objectTypes:
       koopsom:
         type: Integer
         cardinality: 1
-      begrenzing:
+      begrenzingPerceel:
         type: Geometry
         cardinality: 1
 
