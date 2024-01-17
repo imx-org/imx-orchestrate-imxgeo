@@ -61,6 +61,17 @@ sourceRelations:
         - property: geometrie2dTunneldeel
           operator: intersects
           sourcePath: begrenzingPerceel
+  - sourceType: brk:Perceel
+    property:
+      name: bevatPand
+      target: bgt:Pand
+      cardinality: 0..*
+      inverseName: bevindtZichOpPerceel
+      inverseCardinality: 0..*
+      filterMappings:
+        - property: geometrie2dGrondvlak
+          operator: intersects
+          sourcePath: begrenzingPerceel
 
 objectTypeMappings:
   Adres:
@@ -175,9 +186,6 @@ objectTypeMappings:
             - path: gerelateerdBagPand/bevat/heeftAlsNevenadres
           combiner:
             type: merge
-        bevindtZichOpPerceel:
-          pathMappings:
-            path: gerelateerdBagPand/bevat/heeftAlsHoofdadres/betreftInverse/heeft
 
   Perceel:
     - sourceRoot: brk:Perceel
@@ -193,10 +201,10 @@ objectTypeMappings:
             path: kadastraleGrootte
         begrenzing:
           pathMappings:
-            path: begrenzing
+            path: begrenzingPerceel
         bevatGebouw:
           pathMappings:
-            path: heeftInverse/betreft/isHoofdadresVan/maaktDeelUitVan/gerelateerdBgtPand
+            path: bevatPand
         bevatBouwwerk:
           pathMappings:
             - path: bevatKunstwerkdeel
