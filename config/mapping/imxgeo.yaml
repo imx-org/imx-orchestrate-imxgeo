@@ -11,6 +11,8 @@ lineageNameMapping:
   objectKey: identificatie
   objectType: type
   wasDerivedFrom: isAfgeleidVan
+  wasGeneratedBy: isGegenereerdDoor
+  used: gebruikt
 
 targetModel:
   loader: mim
