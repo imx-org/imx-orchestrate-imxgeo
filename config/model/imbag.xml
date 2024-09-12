@@ -17,9 +17,9 @@ commentaar toegevoegd. Dat is alleen bij de éérste opkomst van een contructie 
 -->
 <mim:Informatiemodel xmlns:cs="http://www.imvertor.org/metamodels/conceptualschemas/model/v20181210"
                      xmlns:dlogger="http://www.armatiek.nl/functions/dlogger-proxy"
-                     xmlns:mim="http://www.geostandaarden.nl/mim/informatiemodel/v1"
-                     xmlns:mim-ext="http://www.geostandaarden.nl/mim-ext/informatiemodel/v1"
-                     xmlns:mim-ref="http://www.geostandaarden.nl/mim-ref/informatiemodel/v1"
+                     xmlns:mim="http://www.geostandaarden.nl/mim/mim-core/1.1"
+                     xmlns:mim-ext="http://www.geostandaarden.nl/mim/mim-ext/1.0"
+                     xmlns:mim-ref="http://www.geostandaarden.nl/mim/mim-ref/1.0"
                      xmlns:xhtml="http://www.w3.org/1999/xhtml"
                      xmlns:xlink="http://www.w3.org/1999/xlink"
                      xmlns:xs="http://www.w3.org/2001/XMLSchema"
