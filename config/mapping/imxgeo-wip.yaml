@@ -86,9 +86,9 @@ sourceRelations:
     property:
       name: gerelateerdBagPand
       target: bag:Pand
-      cardinality: 0..1
+      multiplicity: 0..1
       inverseName: gerelateerdBgtPand
-      inverseCardinality: 0..1
+      inverseMultiplicity: 0..1
       keyMapping:
         identificatie: identificatieBAGPND
 
@@ -110,9 +110,9 @@ sourceRelations:
         - bgt:Put
         - bgt:Straatmeubilair
         - bgt:OverigBouwwerk
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: bevindtZichOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -125,9 +125,9 @@ sourceRelations:
       target:
         - imro:Enkelbestemming
         - imro:Dubbelbestemming
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: isBestemmingOpPerceel
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -138,9 +138,9 @@ sourceRelations:
     property:
       name: ligtInGemeentegebied
       target: bg:Gemeentegebied
-      cardinality: 1..1
+      multiplicity: 1..1
       inverseName: bevatPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -151,9 +151,9 @@ sourceRelations:
     property:
       name: ligtInProvinciegebied
       target: bg:Provinciegebied
-      cardinality: 1..1
+      multiplicity: 1..1
       inverseName: bevatPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -164,9 +164,9 @@ sourceRelations:
     property:
       name: ligtInVeiligheidsregiogebied
       target: bg:Veiligheidsregiogebied
-      cardinality: 1..1
+      multiplicity: 1..1
       inverseName: bevatPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -177,9 +177,9 @@ sourceRelations:
     property:
       name: overlaptMetWoonplaats
       target: bag:Woonplaats
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: overlaptMetPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -190,9 +190,9 @@ sourceRelations:
     property:
       name: overlaptMetBuurt
       target: bgt:Buurt
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: overlaptMetPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -203,9 +203,9 @@ sourceRelations:
     property:
       name: overlaptMetWijk
       target: bgt:Wijk
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: overlaptMetPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -216,9 +216,9 @@ sourceRelations:
     property:
       name: heeftBeperkingPubliekrechtelijkeBeperking
       target: brk:PubliekrechtelijkeBeperking
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: isBeperkingOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -229,9 +229,9 @@ sourceRelations:
     property:
       name: heeftBeperkingBouwaanduiding
       target: imro:Bouwaanduiding
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: isBeperkingOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -242,9 +242,9 @@ sourceRelations:
     property:
       name: heeftBeperkingGebiedsaanduiding
       target: imro:Gebiedsaanduiding
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: isBeperkingOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -255,9 +255,9 @@ sourceRelations:
     property:
       name: heeftBeperkingFunctieaanduiding
       target: imro:Functiaanduiding
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: isBeperkingOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -268,9 +268,9 @@ sourceRelations:
     property:
       name: heeftBeperkingMaatvoering
       target: imro:Maatvoering
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: isBeperkingOpPerceel
-      inverseCardinality: 1..*
+      inverseMultiplicity: 1..*
       filterMappings:
         - property: begrenzingPerceel
           operator:
@@ -281,9 +281,9 @@ sourceRelations:
     property:
       name: heeftAlsOndergrond
       target: bro:Ondergrond
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:
@@ -312,9 +312,9 @@ sourceRelations:
         - bgt:Put
         - bgt:Straatmeubilair
         - bgt:OverigBouwwerk
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:
@@ -328,9 +328,9 @@ sourceRelations:
     property:
       name: heeftAlsOndergrondBgt
       target: bro:Ondergrond
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:
@@ -341,9 +341,9 @@ sourceRelations:
     property:
       name: heeftAlsOndergrondBrt
       target: bro:Ondergrond
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:
@@ -360,9 +360,9 @@ sourceRelations:
         - bgt:Waterdeel
         - brt:Waterdeel
         - bro:GerealiseerdeOppervlakteinfiltratie
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:
@@ -376,9 +376,9 @@ sourceRelations:
         - bgt:Waterdeel
         - brt:Waterdeel
         - bro:GerealiseerdeOppervlakteinfiltratie
-      cardinality: 1..*
+      multiplicity: 1..*
       inverseName: ligtOnderWeg
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie
           operator:

@@ -34,18 +34,18 @@ sourceRelations:
     property:
       name: gerelateerdBagPand
       target: bag:Pand
-      cardinality: 0..1
+      multiplicity: 0..1
       inverseName: gerelateerdBgtPand
-      inverseCardinality: 0..1
+      inverseMultiplicity: 0..1
       keyMapping:
         identificatie: identificatieBAGPND
   - sourceType: brk:Perceel
     property:
       name: bevatKunstwerkdeel
       target: bgt:Kunstwerkdeel
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: bevindtZichOpPerceel
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie2dOverigeConstructie
           operator: intersects
@@ -54,9 +54,9 @@ sourceRelations:
     property:
       name: bevatTunneldeel
       target: bgt:Tunneldeel
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: bevindtZichOpPerceel
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie2dTunneldeel
           operator: intersects
@@ -65,9 +65,9 @@ sourceRelations:
     property:
       name: bevatPand
       target: bgt:Pand
-      cardinality: 0..*
+      multiplicity: 0..*
       inverseName: bevindtZichOpPerceel
-      inverseCardinality: 0..*
+      inverseMultiplicity: 0..*
       filterMappings:
         - property: geometrie2dGrondvlak
           operator: intersects
